@@ -1,18 +1,9 @@
 {
-  "easycom": {
-    "autoscan": true,
-    "custom": {
-      // uni-ui 规则如下配置
-      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
-    }
-  },
   "pages": [
     {
       "path": "pages/home/index",
       "style": {
-        "navigationBarTitleText": "home",
-        // 移除顶部默认 uni-page-head
-        "navigationStyle": "custom"
+        "navigationBarTitleText": "home"
       }
     },
     {
@@ -38,26 +29,34 @@
     }
   ],
   "tabBar": {
-    "color": "#7A7E83",
-    "selectedColor": "#3cc51f",
+    "color": "#323233",
+    "selectedColor": "#1ba784",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
       {
         "pagePath": "pages/home/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "./static/tabbar/home.png",
+        "selectedIconPath": "./static/tabbar/home-selected.png"
       },
       {
         "pagePath": "pages/category/index",
-        "text": "分类"
+        "text": "分类",
+        "iconPath": "./static/tabbar/category.png",
+        "selectedIconPath": "./static/tabbar/category-selected.png"
       },
       {
         "pagePath": "pages/cart/index",
-        "text": "购物车"
+        "text": "购物车",
+        "iconPath": "./static/tabbar/shopping.png",
+        "selectedIconPath": "./static/tabbar/shopping-selected.png"
       },
       {
         "pagePath": "pages/mine/index",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "./static/tabbar/contact.png",
+        "selectedIconPath": "./static/tabbar/contact-selected.png"
       }
     ]
   },
@@ -71,9 +70,9 @@
     "current": 0,
     "list": [
       {
-        "name": "", // 模式名称
-        "path": "", // 启动页面，必选
-        "query": "" // 启动参数，在页面的onLoad函数里面得到
+        "name": "",
+        "path": "",
+        "query": ""
       }
     ]
   }

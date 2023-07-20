@@ -1,5 +1,5 @@
 <template>
-  <view class="content">购物车</view>
+  <view class="content" style="margin-top: 120px;">购物车</view>
 </template>
 
 <script setup lang="ts"></script>

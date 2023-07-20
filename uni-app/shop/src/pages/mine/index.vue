@@ -1,5 +1,5 @@
 <template>
-  <view class="content">我的</view>
+  <view class="content" style="margin-top: 120px;">我的</view>
 </template>
 
 <script setup lang="ts"></script>
