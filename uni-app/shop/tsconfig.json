@@ -9,7 +9,6 @@
     "lib": ["esnext", "dom"],
     "types": ["@dcloudio/types", "node", "vite/client"],
     "typeRoots": ["./node_modules/@types/", "src/types"]
-
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": ["node_modules", "dist", "**/*.js"]

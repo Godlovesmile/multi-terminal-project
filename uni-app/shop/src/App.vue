@@ -10,8 +10,11 @@ onHide(() => {
   console.log("App Hide");
 });
 </script>
-<style>
+
+<style lang="scss" scoped>
 #app {
+  width: 200px;
+  height: 200px;
   overflow: hidden;
 }
 </style>

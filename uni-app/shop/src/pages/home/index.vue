@@ -10,6 +10,9 @@
       </swiper>
     </uni-swiper-dot>
   </view>
+  <view class="main">
+    <plate class="section-header" title="商品列表" />
+  </view>
 </template>
 
 <script setup lang="ts">
@@ -43,7 +46,7 @@ function getBannerList() {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .swiper-box {
   height: 200px;
 }

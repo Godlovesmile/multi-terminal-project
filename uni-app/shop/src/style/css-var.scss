@@ -1,0 +1,9 @@
+.dark {
+  --color-bg-2: #232324;
+}
+
+:root {
+  --van-white: #fff;
+  // background color
+  --color-bg-2: var(--van-white)
+}
